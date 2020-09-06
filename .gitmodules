@@ -1,0 +1,6 @@
+[submodule "Assets/Modules/HamiSingletons"]
+	path = Assets/Modules/HamiSingletons
+	url = https://github.com/djavadihamid/HamiSingletons.git
+[submodule "Assets/Modules/HamiParents"]
+	path = Assets/Modules/HamiParents
+	url = https://github.com/djavadihamid/HamiParents.git

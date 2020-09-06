@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Modules.CommonFunctions
+namespace HamiMicsFuncs
 {
     public static class CExtension
     {

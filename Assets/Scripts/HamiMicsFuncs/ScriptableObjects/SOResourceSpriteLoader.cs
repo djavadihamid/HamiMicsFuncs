@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Characters.CharacterClass
+namespace HamiMicsFuncs.ScriptableObjects
 {
     [Serializable]
     public struct SpriteStructure

@@ -13,9 +13,8 @@ namespace HamiMicsFuncs.ScriptableObjects.SpriteLoader
         {
             if (!_spritesLoaders.ContainsKey(spritePackType))
                 _spritesLoaders.Add(spritePackType,
-                    Resources.Load<SOResourceSpriteLoader>($"ScriptableObjects/{spriteName}")
+                    Resources.Load<SOResourceSpriteLoader>($"ScriptableObjects/{spritePackType}")
                 );
-
             return _spritesLoaders[spritePackType].GetByName(spriteName);
         }
     }
